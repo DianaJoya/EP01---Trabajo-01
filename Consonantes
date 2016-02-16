@@ -1,0 +1,16 @@
+
+var consonantes = "ingenieria de sistemas";
+var cont=0;
+consonantes = consonantes.toLowerCase();
+for (var i=0; i<consonantes.length; i++)
+{
+if ((consonantes.charAt(i)==`b`) || (consonantes.charAt(i)==`c`) || (consonantes.charAt(i)==`d`) || (consonantes.charAt(i)==`f`) || (consonantes.charAt(i)==`g`) ||
+(consonantes.charAt(i)==`h`) || (consonantes.charAt(i)==`j`) || (consonantes.charAt(i)==`k`) || (consonantes.charAt(i)==`l`) || (consonantes.charAt(i)==`m`) ||
+(consonantes.charAt(i)==`n`) || (consonantes.charAt(i)==`p`) || (consonantes.charAt(i)==`q`) || (consonantes.charAt(i)==`r`) || (consonantes.charAt(i)==`s`) ||
+(consonantes.charAt(i)==`t`) || (consonantes.charAt(i)==`v`) || (consonantes.charAt(i)==`w`) || (consonantes.charAt(i)==`x`) || (consonantes.charAt(i)==`y`) ||
+(consonantes.charAt(i)==`z`))
+{
+  cont++; 
+}
+  }
+console.log(" El numero de consonantes es " + cont);
