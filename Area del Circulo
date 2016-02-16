@@ -1,0 +1,3 @@
+var radio="6";
+areacirculo = Math.PI * Math.pow(radio,2);
+console.log(areacirculo);
