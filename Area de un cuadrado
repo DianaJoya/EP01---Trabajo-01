@@ -1,0 +1,5 @@
+
+var lado1="50";
+var lado2="50"
+areacuadrado = (lado1*lado2);
+console.log(areacuadrado);
