@@ -1,0 +1,3 @@
+var base = 50;
+var altura = 25;
+areatriangulo = (base*altura)/2;
